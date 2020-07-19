@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lesson</title>
+	<link rel="stylesheet" href="lesson4.css">
+</head>
+<body>
+	<nav>
+		<header class="header-d1">
+			<img class="img1" src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/yu.png">
+		</header>
+		<ul>
+			<li><a class="active" href="#">Home</a></li>
+			<li class="dropdown">
+				<a href="">Pages</a>
+				<div class="dropdown-content">
+					<p><a href="#">About</a></p>
+					<p><a href="#">Categories</a></p>
+					<p><a href="#">Recipe</a></p>
+					<p><a href="#">Blog</a></p>
+					<p><a href="#">Contact</a></p>
+				</div>
+			</li>
+			<li class="h-li"><a href="#">Recipes</a></li>
+			<li class="h-li"><a href="#">Best Of</a></li>
+			<li class="h-li"><a href="#">Contacts</a></li>
+		</ul>
+		<div>
+			<h1 class="hamburger" onclick="toggleClass()">&#9776</h1>
+		</div>
+	</nav>
+	<main>
+		<section class="main-d1">
+			<div class="m-d1-d">
+				<figure>
+					<a href="#">
+					<img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/recipe-1.jpg">
+					<figcaption>
+						Raw Vegan Carrot Cake Bites with Avocado
+					</figcaption>
+				    </a>
+				</figure>
+				<figure>
+					<a href="#">
+					<img class="imgr" src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/recipe-2.jpg">
+					<figcaption>
+						One Pot Weeknight Lasagna Soup Recipe
+					</figcaption>
+				    </a>
+				</figure>
+			</div>
+			<div class="m-d1-d2">
+				<figure class="fig">
+					<a href="#">
+					<img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/recipe-3.jpg">
+					<figcaption>
+						<p class="p1">March 10, 2019</p>
+						<p class="p2">Cannellini Aglio e Olio with Salmon</p>
+					</figcaption>
+				    </a>
+				</figure>
+			</div>
+			<div class="m-d1-d">
+				<figure id="jar1">
+				    <a href="#">
+					<img class="imgr" src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/recipe-4.jpg">
+					<figcaption>
+						Beef Burger with French Fries and Salad
+					</figcaption>
+				    </a>
+				</figure>
+				<figure>
+					<a href="#">
+					<img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/recipe-5.jpg">
+					<figcaption>
+						Raspberry Pancakes with Honey and Butter
+					</figcaption>
+				    </a>
+				</figure>
+			</div>
+		</section>
+		<div class="gap">
+			<div class="gap-d1">
+				Top resipes this week
+			</div>
+			<div class="gap-d2">
+				+
+		    </div>
+		</div>
+		<section class="sct-2">
+			<div class="s2-d1">
+				<button class="rec-but">
+					<img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/recipe-6.jpg">
+				</button>
+				<P class="re-1">DESERT</P>
+				<a class="re-2" href="#">One Pot Weeknight Lasagna Soup Recipe</a>
+				<p class="re-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+			</div>
+			<div class="s2-d2">
+				<div class="s2-d2-d">
+					<button class="btn"><img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/recipe-7.jpg"></button>
+					<div class="rec-but">
+						<p class="r-1">VEGAN</p>
+						<p class="r-p"><a class="r-2" href="#">One Pot Weeknight Lasagna Soup Recipe</a></p>
+						<p class="r-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+			    </div>
+				<div class="s2-d2-d">
+					<button><img class="btn2" src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/recipe-8.jpg"></button>
+					<div>
+						<p class="r-1">MEAT FLOWER</p>
+						<p class="r-p"><a class="r-2" href="#">Veggie soup with Mushrooms</a></p>
+						<p class="r-3">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur.</p>
+					</div>
+			    </div>
+				<div class="s2-d2-d">
+					<button><img class="btn2" src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/recipe-9.jpg"></button>
+					<div>
+						<p class="r-1">DESERT</p>
+						<p class="r-p"><a class="r-2" href="#">Caramel Ice Cream with Berries</a></p>
+						<p class="r-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+			    </div>
+				<div class="s2-d2-d">
+					<button ><img  class="btn2" src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/recipe-10.jpg"></button>
+					<div>
+						<p class="r-1">DESERT</p>
+						<p class="r-p"><a class="r-2" href="#">Freash Octopuse with lime juice</a></p>
+						<p class="r-3">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur.</p>
+					</div>
+			    </div>
+			</div>
+		</section>
+		<section class='sct-3'>
+			<div class="sct3-d1">
+				<P class="sct3-d1-p1 active" id="no1">Vegetarian</P>
+				<p class="sct3-d1-p1" id="no2">Most popular</p>
+				<p class="sct3-d1-p1" id="no3">Meat Lover</p>
+				<p class="sct3-d1-p1" id="no4">Gluten Free</p>
+			</div>
+			<div class="s3-d2">
+				<figure class="jar1">
+					<img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/cate1.jpg">
+					<figcaption>
+						Sunday Brunch: Spaghetti and Eggs Recipe
+					</figcaption>
+				</figure>
+
+				<figure class="jar2">
+					<img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/cate2.jpg">
+					<figcaption>
+						Sunday Brunch: Spaghetti and Eggs Recipe
+					</figcaption>
+				</figure>
+
+				<figure  class="jar2">
+					<img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/cate3.jpg">
+					<figcaption>
+						Sunday Brunch: Spaghetti and Eggs Recipe
+					</figcaption>
+				</figure>
+
+				<figure class="jar3">
+					<img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/cate4.jpg">
+					<figcaption>
+						Sunday Brunch: Spaghetti and Eggs Recipe
+					</figcaption>
+				</figure>
+
+				<figure  class="jar3">
+					<img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/cate5.jpg">
+					<figcaption>
+						Sunday Brunch: Spaghetti and Eggs Recipe
+					</figcaption>
+				</figure>
+			</div>
+			<div class="gap">
+			<div class="gap-d1">
+				Featured Recipes
+			</div>
+			<div class="gap-d2">
+				+
+		    </div>
+		</div>
+		</section>
+		<section class="sct-4">
+			<div class="s4-d">
+				<img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/feature1.jpg">
+				<div class="s4-d-d">
+					<p class="p1">Sunday Brunch: Spaghetti and Eggs Recipe</p>
+					<p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			    </div>
+			</div>
+			<div class="s4-d">
+				<img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/feature2.jpg">
+				<div class="s4-d-d">
+					<p class="p1">Sunday Brunch: Spaghetti and Eggs Recipe</p>
+					<p class="p2">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+			    </div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="foot-d1">
+			<img src="file:///C:/Users/mlg29.LAWAL/Desktop/javascript30/yu.png">
+			<p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+			<p class="p2">Copyright ©2020 All rights reserved | This template is made with by Colorlib,developed by Hamzat</p>
+		</div>
+		<div class="foot-d2">
+			<p class="p1">Subscribe to our newsletter</p>
+			<form>
+				<input class="inp1" type="email" placeholder="Your email" required>
+				<button class="inp2" type="submit">subscribe</button>
+		    </form>
+	    </div>
+	</footer>
+
+
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha256-ABrLsV2caVEMCBfm3eNhv/CYQG+tGCqzw2f4b/Pag0M=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js" integrity="sha256-v/YsEqWkVsiNHryCWg+vjC/eDBakMAgOsCJRa0kNPOg=" crossorigin="anonymous"></script>
+	<script src="lesson4.js"></script>
+</body>
+</html>
