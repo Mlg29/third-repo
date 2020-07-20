@@ -428,7 +428,7 @@ form{
 		top:0px;
 		z-index: 1;
 		background:#FFE4B5;
-		position: absolute;
+		position: fixed;
 		display: none;
 		width: 50%;
 		left: 15px;
