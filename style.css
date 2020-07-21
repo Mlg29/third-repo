@@ -428,13 +428,13 @@ form{
 		display: block;
 	}
 	nav ul{
-		top:0px;
+		top:0%;
 		z-index: 1;
 		background:#FFE4B5;
 		position: fixed;
 		display: none;
 		width: 50%;
-		left: 0px;
+		left: 0%;
 		height:100%;
 		line-height: 40px;
     }
