@@ -382,6 +382,7 @@ form{
 	.m-d1-d,.m-d1-d2{
 		flex-direction: row;
 		width:90%;
+		
 		margin: 0 auto;
 	}
 	.s2-d1,.s2-d2{
