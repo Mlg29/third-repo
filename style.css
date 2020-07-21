@@ -434,7 +434,7 @@ form{
 		position: fixed;
 		display: none;
 		width: 50%;
-		left: 15px;
+		left: 0px;
 		height:100%;
 		line-height: 40px;
     }
