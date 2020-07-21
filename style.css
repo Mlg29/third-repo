@@ -380,10 +380,12 @@ form{
 		flex-direction: column;
 	}
 	.m-d1-d,.m-d1-d2{
+		justify-content:space-around;
 		flex-direction: row;
 		width:90%;
 		
 		margin: 0 auto;
+		
 	}
 	.s2-d1,.s2-d2{
 		margin:0 auto;
